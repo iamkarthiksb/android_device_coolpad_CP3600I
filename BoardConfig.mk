@@ -46,6 +46,7 @@ TARGET_KERNEL_SOURCE := kernel/yulong/msm8952
 TARGET_KERNEL_CONFIG := cyanogenmod_CP3600I_defconfig
 TARGET_KERNEL_CROSS_COMPILE_PREFIX := arm-eabi-
 KERNEL_TOOLCHAIN := $(ANDROID_BUILD_TOP)/prebuilts/gcc/$(HOST_OS)-x86/arm/arm-eabi-4.8/bin
+TARGET_USES_UNCOMPRESSED_KERNEL := true
 
 # ANT+
 BOARD_ANT_WIRELESS_DEVICE := "vfs-prerelease"
