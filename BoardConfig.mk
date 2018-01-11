@@ -14,7 +14,7 @@
 # limitations under the License.
 #
 
-DEVICE_PATH := device/coolpad/CP3600i
+DEVICE_PATH := device/coolpad/CP3600I
 
 TARGET_SPECIFIC_HEADER_PATH := $(DEVICE_PATH)/include
 
